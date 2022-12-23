@@ -1,0 +1,683 @@
+
+:root {
+    --main-color: #478ac9;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* start header  */
+
+
+.header {
+    background-color:white;
+   
+    height:90px ;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.header .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+
+}
+
+.header .container ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px
+}
+
+.header .container li a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+   text-decoration: none;
+   font-size: 20px;
+ 
+}
+
+.header  ul li a:hover{
+    color: var(--main-color);
+    transition: .5s
+}
+
+/* End header  */
+
+.landing{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 90px);
+    background-image: url('../image/smiling-female-business-leader-with-arms-crossed.jpg');
+    background-size: cover;
+}
+.content {
+    position: absolute;
+    left:50%; 
+    background-color: white;
+    padding:40px ;
+    border-radius: 30px  0 0 30px ; 
+    width: 400px;
+}
+.content  h5{
+    color:black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.content h1 {
+    color:var(--main-color);
+    font-size: 50px;
+    margin-top:10px;     
+    margin-bottom:10px     
+}
+.content p {
+    font-weight: 500;
+    font-size: 15   px;
+}
+
+/* #e9f2fa */
+/* start About  */
+.about {
+  
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color:#e9f2fa ;
+
+}
+.about .container
+{
+    margin-left: 15%;
+    margin-right: 15%;
+ 
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .container .text1 {
+    width:50%;
+}
+.about .container .text1 h1 {
+    color:var(--main-color);
+    font-size:50px ;
+    position: relative;
+
+}
+.about .container .text1 h1::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 12%;
+    top: 54%;
+    background-color: var(--main-color);
+}
+.about .container .text1 h1
+.about .container .text1 h3 {
+    margin: 0;
+    font-size: 30px ;
+}
+.about .container .text1  ul{
+    margin-top:20px
+}
+.about .container .text1  ul li{
+    position: relative;
+    list-style: none;
+    padding-left:20px;
+    margin-bottom:20px ;
+    color:black;
+    font-weight: bold;
+
+
+}
+
+.about .container .text1  ul li::after{
+    content:"";
+    position: absolute;
+    left:0 ;
+    top:0 ;
+  border-width:10px 10px 10px 10px ;
+  border-color:transparent transparent transparent var(--main-color);
+  border-style: solid;
+}
+.about .container .text2 {
+    width:50%;
+    background-color: white;
+    padding:30px ;
+  
+    font-size: 17px ;
+    border-radius: 30px  0 0 30px ;  
+
+}
+.about .container .text2 h4 {
+    font-weight:bold;
+    color:black;
+    margin-bottom:15px ;
+    line-height: 1.7;
+}
+.about .container .text2  p{
+    color:var(--main-color);
+    line-height: 1.5;
+    font-weight: 500;
+}
+/* End About  */
+/* start products  */
+.product
+{
+   margin-top:50px ;
+   margin-bottom:50px ;
+
+}
+.product .container{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .container .text1 h1 {
+    font-weight: bold;
+    margin-top: -90px;
+}
+.product .container .text2 , .text3 , .text4{
+    background-color: var(--main-color);
+    padding:30px ;
+    border-radius: 35px ;
+    margin-left:20px ;
+    width:30%;
+    height:200px
+
+
+}
+.product .container p {
+    color:white;
+    font-size:17px ;
+    font-weight:bold;
+
+    padding:10px;
+}
+.product .container .image{
+    text-align: right;
+
+
+}
+.product .container img {
+    width: 40px;
+    height: 40px;
+    padding:10px ;
+    background-color: white;
+    border-radius: 50%;
+    margin-top:80px ;
+
+    
+
+}
+/* End products  */
+
+
+/* start smart  */
+
+
+.smart{
+    position: relative;
+   
+    height:600px;
+    background-image: url('../image/low-angle-businessman.jpg');
+ 
+    background-attachment: fixed;
+}
+.smart .content {
+    position: absolute;
+    left:10%; 
+    top:40%;
+    background-color: white;
+    padding:40px ;
+    border-radius: 0  30px 30px 0 ; 
+    width: 500px;
+}
+
+.smart .content h1 {
+    color:black;
+    font-size: 40px;
+    margin-top:10px;     
+    margin-bottom:10px     
+}
+.smart .content p {
+    font-weight: 500;
+    width:400px;
+    line-height: 1.7
+}
+
+/* End smart  */
+
+
+/* start good-idea  */
+.good-idea {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:50px ;
+  
+
+}
+.good-idea .contente {
+    text-align: center;
+   
+}
+.good-idea .contente  h1 {
+    color:var(--main-color);
+    font-size:35px ;    
+
+}
+.good-idea .contente p {
+    font-weight: 500;
+    line-height: 1.7;
+
+    width:70%;
+   margin: 20px auto ;
+}
+
+.good-idea .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.good-idea .counter .box {
+    background-color:#f2f2f2;
+    padding:70px ; 
+    text-align: center;
+    font-weight: bold;
+    border-radius: 35px ;
+  
+
+
+}
+.good-idea .counter p {
+    color:black;  
+    margin-bottom:20px 
+}
+.good-idea .counter h1 {
+    color:var(--main-color);
+    font-size:60px ;
+
+}
+
+/* End good-idea  */
+
+/* start image  */
+.imagees{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:50px ;
+}
+.imagees .image-contents{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 40px;
+}
+.imagees .image-contents img {
+    width: 100%;
+    height: 300px;
+}
+.imagees p{
+
+    width:70% ;
+    text-align: center;
+    margin:50px auto ;
+    line-height: 1.7;
+    color: black;
+}
+/* End image  */
+/* start contact  */
+.contact {
+    background-color:var(--main-color);
+    padding-top:50px ;
+    padding-bottom:50px ;
+}
+.contact .container{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.contact .container h1 {
+    color:white;
+    font-size:30px ;
+
+}
+.contact .container button {
+    background-color: white;
+    color: black;
+    border: none;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+    padding:20px ;
+    margin-top:20px ;
+}
+/* End contact  */
+
+/* start work  */
+.working{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:50px ;
+}
+.working h1 {
+    font-weight:bold;
+
+}
+.working .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 40px;
+    margin-top:40px ;
+}
+.working .container h1 {
+    color:var(--main-color);
+    font-size: 50px ;
+}
+.working .container .lores1 {
+    color:black;
+    margin-top:15px ;
+    margin-bottom:20px ;
+    font-weight: bold;
+}
+.working .container .lores2 {
+color:rgba(0, 0, 0, 0.65);
+line-height: 1.7
+}
+/* End  work  */
+
+/* start pricing  */
+.pricing {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:100px ;
+}
+.pricing .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ 
+}
+ 
+.pricing .container h1 {
+    font-size:30px ;
+}
+.pricing .container .text
+{
+    margin-top: -149px;
+}
+.pricing .container .text p {
+    margin-top:30px ;
+    font-weight: bold   ;
+    margin-bottom:30px ;
+}
+.pricing .container .text button {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 18px;
+    padding:20px 50px  ;
+    margin-top:20px ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pricing .container  .part1 {
+    background-color: var(--main-color);
+    text-align: center;
+    color:white;
+    position: relative;
+    width: 33%;
+    border-radius:50px ;
+    /* padding:0 40px ; */
+}
+.pricing .container  .part1 img {
+    position: absolute;
+    top: -58px;
+    left: 35%;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width:90px;
+    height:90px ;
+    padding:20px ;
+}
+.pricing .container  .part1 .price {
+    font-size: 60px ;
+   margin-top:90px
+}
+.pricing .container  .part1 .month {
+    font-weight: normal;
+    margin-bottom:20px ;
+    margin-top:20px ;
+    font-size: 20px ;
+}
+.pricing .container  .part1 .feature {
+    margin-bottom:10px ;
+    font-weight: 400;
+
+}
+.pricing .container  .part1 button {
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 18px;
+    padding:20px 40px   ;
+    margin-top:20px ;
+    margin-bottom:30px 
+}
+
+/* End pricing  */
+
+/* start pranding */
+.pranding{
+   padding-top:80px;
+   padding-bottom:80px;
+   
+    background-color: #e9f2fa;
+}
+.pranding .container {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    display: flex;
+    justify-content:space-between;
+
+}
+.pranding .container h1 {
+    font-size:40px ;
+    color:var(--main-color);
+    position: relative;
+    margin-bottom:20px ;
+}
+.pranding .container h1::after{
+    content: "";
+    position:absolute;
+    width:35px;
+    height:5px;
+    left:10% ;
+    top:50% ;
+    background-color:var(--main-color)
+}
+.pranding .container h5 {
+    font-size:20px ;
+    font-weight: 500;
+    margin-bottom:40px ;
+}
+.pranding .container h3 {
+    margin-bottom:20px ;
+    font-size:30px ;
+}
+.pranding .container p {
+    color:black;
+    width:470px ;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.pranding .container .text23 
+{
+
+    background-color: white;
+    padding: 30px;
+    font-size: 17px;
+    border-radius: 30px 0 0 30px;
+
+}
+.pranding .container .text23  .pars 
+{
+
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+.pranding .container .text23 button
+{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    padding:20px 50px  ;
+    margin-top:20px ;
+
+    font-weight: 500;
+}
+/* End  pranding*/
+
+
+/* start form-contact  */
+.form-contact {
+    padding-top:60px ;
+    padding-bottom:70px ;
+
+    min-height:600px;
+    background-image: url('../image/young-handsome-business-man-with-laptop-office.jpg');
+    background-size:cover ;
+    background-position:center center ;
+    position: relative;
+}
+form h5 {
+    font-size:16px ;
+    margin-bottom:15px 
+}
+form {
+    width:500px ;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 0 30px 30px 0;
+}
+form lable {
+    display: block;
+    font-weight: 500;
+    margin-bottom:2px 
+}
+form div {
+    margin-bottom:20px ;
+}
+form   input,
+form   textarea {
+    padding:10px ;
+    border-radius: 5px ;
+    border:none;
+ 
+    width:100%;
+    background-color:#e9f2fa
+}
+form   textarea {
+height:120px
+
+}
+form .int {
+    width:20px ;
+    text-align: right;
+
+}
+.Terms {
+    color:var(--main-color);
+    font-weight: bold;
+}
+form button {
+    width:100%;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    padding:20px 50px  ;
+    margin-top:20px ;
+
+    font-weight: 500;
+}
+form .listes {
+    margin-top:20px ;
+    font-weight: 500;
+
+}
+/* End  form-contact  */
+
+/* start footer  */
+footer{
+    background-color:#333333 ;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+footer .container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container  h3 {
+    color:var(--main-color);
+    font-weight: bold;
+    font-size: 25px ;
+}
+footer .container  p{
+    color:white;
+    font-size:20px 
+}
+footer .container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container ul li {
+    list-style: none;
+    margin-left:10px 
+}
+footer .container ul li img {
+        width:30px;
+        height:30px ;
+        border-radius: 50%;
+
+}
+/* End footer  */
